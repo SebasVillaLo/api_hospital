@@ -335,3 +335,10 @@ Response:
   "message": "Password has been update",
 }
 ```
+
+## Contacto
+
+Para cualquier pregunta o comentario sobre este proyecto, no dudes en contactarme:
+
+- Email: villalopezsebastian@gmail.com
+- Twitter: [@VillaLo19](https://twitter.com/villalo19)
