@@ -68,7 +68,7 @@ Esta operación manda un correo con la contraseña que se le asigno, al intentar
 ### Ejemplo
 
 ```
-POST /api/signup
+POST /api/signup_doctor/:tokenHospital
 
 Body:
 {
@@ -103,7 +103,7 @@ Esta operación devuelve un token de acceso para poder ingresar al sistema.
 ### Ejemplo
 
 ```
-POST /api/login
+POST /api/signin
 
 Body:
 {
@@ -113,8 +113,8 @@ Body:
 
 Response:
 {
-  "message": "User logged successfully",
-  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVlZmU3ZDUzNjUyM2U4MDAxM2U1ODliZCIsImlkZW50aWZpY2F0aW9uIjoiMTIzNDU2Nzg5MCIsImVtYWlsIjoidGVzdEBlbWFpbC5jb20iLCJyb2wiOiJQYWNpZW50ZSIsIm5hbWUiOiJUZXN0IFVzZXIiLCJhZGRyZXNzIjoiTXkgYWRkcmVzcyIsImlhdCI6MTU5MzA0ODI5MywiZXhwIjoxNTkzMTM0NjkzfQ.f5_yV5m5tKgjuV7mE-QJhVcS-1dKmV7WA9hJyHVhY4w"
+  "freshToken": "gQJhVcS-1dKmV7WA9hJyHVhY4",
+  "token": "QJhVcS-1dKmV7WA9hJyHVhY4w"
 }
 ```
 
@@ -130,7 +130,7 @@ Esta operación devuelve un token de acceso para poder ingresar al sistema si an
 ### Ejemplo
 
 ```
-POST /api/login
+POST /api/signin
 
 Body:
 {
@@ -140,15 +140,15 @@ Body:
 
 Response:
 {
-  "message": "User logged successfully",
-  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVlZmU3ZDUzNjUyM2U4MDAxM2U1ODliZCIsImlkZW50aWZpY2F0aW9uIjoiMTIzNDU2Nzg5MCIsImVtYWlsIjoidGVzdEBlbWFpbC5jb20iLCJyb2wiOiJQYWNpZW50ZSIsIm5hbWUiOiJUZXN0IFVzZXIiLCJhZGRyZXNzIjoiTXkgYWRkcmVzcyIsImlhdCI6MTU5MzA0ODI5MywiZXhwIjoxNTkzMTM0NjkzfQ.f5_yV5m5tKgjuV7mE-QJhVcS-1dKmV7WA9hJyHVhY4w"
+  "freshToken": "gQJhVcS-1dKmV7WA9hJyHVhY4",
+  "token": "QJhVcS-1dKmV7WA9hJyHVhY4w"
 }
 ```
 
 ### Ejemplo 2
 
 ```
-POST /api/login
+POST /api/signin
 
 Body:
 {
@@ -178,7 +178,7 @@ Para la actualización de usuarios se requiere la siguiente información:
 ### Ejemplo
 
 ```
-POST /api/update
+POST /api/users_update/:token
 
 Body:
 {
@@ -205,7 +205,7 @@ Para la eliminación de usuarios se requiere la siguiente información:
 ### Ejemplo
 
 ```
-DELETE /api/delete
+DELETE /api/users_delete/:token
 
 Response:
 {
@@ -224,7 +224,7 @@ Esta operación devuelve los datos del usuario.
 ### Ejemplo
 
 ```
-GET /api/user
+GET /api/user_get/:token
 
 Response:
 {
@@ -252,12 +252,20 @@ Esta operación devuelve el informe médico en formato PDF.
 ### Ejemplo
 
 ```
-GET /api/report
+GET /api/create_report
+
+Body:
+{
+  "id_patient": "idexample1",
+  "id_hospital": "idexample2",
+  "id_doctor": "idexample3",
+  "specialization,": "Medico General",
+  "description": "El paciente cuenta con signos vitales poco estables",
+}
 
 Response:
 {
-  "message": "Email has been sent",
-  "data": "report.pdf"
+  "message": "Medical report has been create"
 }
 ```
 
@@ -265,39 +273,33 @@ Response:
 
 Para la descarga de informes médicos se requiere la siguiente información:
 
-- dataFile: Datos del informe médico.
+- id: Datos del informe médico.
 
 Esta operación devuelve el informe médico en formato PDF.
 
 ### Ejemplo
 
 ```
-GET /api/download
+GET /api/download_report/:id
 
-Response:
-{
-  "message": "Report downloaded successfully",
-  "data": "report.pdf"
-}
+Se descarga el archivo
 ```
 
 ## Restablecimiento de contraseña
 
 Para el restablecimiento de contraseñas se requiere la siguiente información:
 
-- identification: Identificación del usuario.
 - email: Correo electrónico del usuario.
 
-Esta operación devuelve un token de acceso para poder realizar el cambio de contraseña.
+Esta operación manda un correo al usuario com una url con un token para restablecer la contraseña.
 
 ### Ejemplo
 
 ```
-POST /api/reset
+POST /api/reset_password
 
 Body:
 {
-  "identification": "1234567890",
   "email": "test@email.com"
 }
 
@@ -305,5 +307,21 @@ Response:
 {
   "message": "Email has been sent",
   "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVlZmU3ZDUzNjUyM2U4MDAxM2U1ODliZCIsImlkZW50aWZpY2F0aW9uIjoiMTIzNDU2Nzg5MCIsImVtYWlsIjoidGVzdEBlbWFpbC5jb20iLCJyb2wiOiJQYWNpZW50ZSIsIm5hbWUiOiJUZXN0IFVzZXIiLCJhZGRyZXNzIjoiTXkgYWRkcmVzcyIsImlhdCI6MTU5MzA0ODI5MywiZXhwIjoxNTkzMTM0NjkzfQ.f5_yV5m5tKgjuV7mE-QJhVcS-1dKmV7WA9hJyHVhY4w"
+}
+```
+
+### Ejemplo url
+
+```
+POST /api/reset_password/:tokem
+
+Body:
+{
+  "password": "newpassword"
+}
+
+Response:
+{
+  "message": "Password has been update",
 }
 ```
