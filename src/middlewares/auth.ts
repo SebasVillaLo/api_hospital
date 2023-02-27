@@ -5,7 +5,7 @@ import { accessToken, decodeToken, refreshToken } from "../modules/jsonwtgenerat
 import { sendEmail } from "../api_service/send_email";
 import { Auth } from "./types/auth.types";
 
-const { SECRET, PORT } = process.env;
+const { SECRET } = process.env;
 
 export const signin: RequestHandler = async (req, res) => {
   const { identification, password } = req.body;
@@ -29,7 +29,7 @@ export const signin: RequestHandler = async (req, res) => {
 
     if (user.first_login) return res.status(401).json({
       message: 'Change password',
-      url: `http://localhost:${PORT}/api/password_change_doctor/${token}`
+      url: `https://apihospital.azurewebsites.net/api/password_change_doctor/${token}`
     });
 
     return res.status(200).json({
@@ -65,7 +65,7 @@ export const signup: RequestHandler = async (req, res) => {
   const token = accessToken(userData, '24h');
   try {
     if (rol === 'Patient') {
-      await sendEmail({ recipient: email, subject: 'Verificacion de cuenta', body: `http://localhost:${PORT}/api/verifyUser/${token}` });
+      await sendEmail({ recipient: email, subject: 'Verificacion de cuenta', body: `https://apihospital.azurewebsites.net/api/verifyUser/${token}` });
       return res.status(200).json({
         message: 'Email has been sent',
       });
@@ -161,7 +161,7 @@ export const resetPassword: RequestHandler = async (req, res) => {
     const { __v, ...dataUser } = user;
     const token = accessToken(dataUser);
     const tokenRefresh = refreshToken(dataUser);
-    await sendEmail({ recipient: email, subject: 'Restablecer contraseña', body: `http://localhost:${PORT}/api/reset_password/${token}`});
+    await sendEmail({ recipient: email, subject: 'Restablecer contraseña', body: `https://apihospital.azurewebsites.net/api/reset_password/${token}` });
     return res.status(200).json({
       message: 'Email has been sent',
       refreshToken: tokenRefresh,
