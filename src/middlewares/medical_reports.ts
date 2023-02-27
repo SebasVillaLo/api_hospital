@@ -5,7 +5,6 @@ import { Auth } from "./types/auth.types";
 import User from "../model/User";
 import appRoot from 'app-root-path';
 import htmlPdf from "html-pdf";
-// import path from "path";
 
 export const createReport: RequestHandler = async (req, res) => {
   const { description, id_patient, id_doctor, id_hospital, specialization } = req.body;
