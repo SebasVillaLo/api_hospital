@@ -1,0 +1,423 @@
+{
+	"info": {
+		"_postman_id": "bf02405d-7544-4b80-96e1-45ea47a66259",
+		"name": "Prueba tecnica",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Auth (Signin, Signup)",
+			"item": [
+				{
+					"name": "signin",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"identification\": 123452,\r\n    \"password\": \"cambioclavedoctor2023\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://apihospital.azurewebsites.net/api/signin",
+							"protocol": "https",
+							"host": [
+								"apihospital",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"signin"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "verify_user",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://apihospital.azurewebsites.net/api/verifyUser/<token>",
+							"protocol": "https",
+							"host": [
+								"apihospital",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"verifyUser",
+								"<token>"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "signup_doctor",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"identification\": 123452,\r\n    \"phone\": 3213262,\r\n    \"email\": \"villalopezsebastian@gmail.com\",\r\n    \"rol\": \"Doctor\",\r\n    \"name\": \"Sebastian\",\r\n    \"address\": \"Calle test\",\r\n    \"medical_provided\": \"Medico General\",\r\n    \"password\": \"test2023\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://apihospital.azurewebsites.net/api/signup_doctor/<token>",
+							"protocol": "https",
+							"host": [
+								"apihospital",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"signup_doctor",
+								"<token>"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "signup",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"identification\": 13342,\r\n    \"phone\": 301232,\r\n    \"email\": \"villalopezsebastian@gmail.com\",\r\n    \"rol\": \"Patient\",\r\n    \"name\": \"Sebastian\",\r\n    \"address\": \"Calle test\",\r\n    \"medical_provided\": \"Medico General\",\r\n    \"password\": \"test2023\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://apihospital.azurewebsites.net/api/signup",
+							"protocol": "https",
+							"host": [
+								"apihospital",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"signup"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "reset_password",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"villalopezsebastian@gmail.com\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://apihospital.azurewebsites.net/api/reset_password",
+							"protocol": "https",
+							"host": [
+								"apihospital",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"reset_password"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update_password",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"password\": \"cambioclave2023\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://apihospital.azurewebsites.net/api/reset_password/<token>",
+							"protocol": "https",
+							"host": [
+								"apihospital",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"reset_password",
+								"<token>"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "first change password",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"password\": \"cambioclavedoctor2023\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://apihospital.azurewebsites.net/api/password_change_doctor/<token>",
+							"protocol": "https",
+							"host": [
+								"apihospital",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"password_change_doctor",
+								"<token>"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "medical reports",
+			"item": [
+				{
+					"name": "create_report",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id_patient\": \"63fbd7936dbcaa36c48d1721\",\r\n    \"id_doctor\": \"63fbdd2a18328af309d0c933\",\r\n    \"id_hospital\": \"63fbdd1f18328af309d0c92f\",\r\n    \"specialization\": \"Medico General\",\r\n    \"description\": \"El paciente presentó síntomas de fiebre, dolor de cabeza y fatiga, por lo que se le realizó un examen físico y se tomaron pruebas de laboratorio. Los resultados indicaron una infección viral, y se le recetó un tratamiento para aliviar los síntomas y prevenir complicaciones. El paciente siguió las recomendaciones del médico y mejoró significativamente en los siguientes días. Sin embargo, en un chequeo de seguimiento un mes después, se descubrió que el paciente tenía un nivel elevado de colesterol en sangre. Se le realizó una evaluación más detallada y se confirmó que tenía hipercolesterolemia. El médico le explicó la importancia de seguir una dieta saludable y realizar ejercicio regularmente, así como el tratamiento farmacológico necesario.\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://apihospital.azurewebsites.net/api/create_report",
+							"protocol": "https",
+							"host": [
+								"apihospital",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"create_report"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get reports",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://apihospital.azurewebsites.net/api/get_reports/<token>",
+							"protocol": "https",
+							"host": [
+								"apihospital",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"get_reports",
+								"<token>"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "dowload document",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://apihospital.azurewebsites.net/api/download_report/<id>",
+							"protocol": "https",
+							"host": [
+								"apihospital",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"download_report",
+								"<id>"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "CRUD user",
+			"item": [
+				{
+					"name": "update_user",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"address\": \"Calle 760\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://apihospital.azurewebsites.net/api/users_update/<token>",
+							"protocol": "https",
+							"host": [
+								"apihospital",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"users_update",
+								"<token>"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get one user",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"address\": \"Calle 760\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://apihospital.azurewebsites.net/api/user_get/<token>",
+							"protocol": "https",
+							"host": [
+								"apihospital",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"user_get",
+								"<token>"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete user",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"address\": \"Calle 760\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://apihospital.azurewebsites.net/api/users_delete/<token>",
+							"protocol": "https",
+							"host": [
+								"apihospital",
+								"azurewebsites",
+								"net"
+							],
+							"path": [
+								"api",
+								"users_delete",
+								"<token>"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
