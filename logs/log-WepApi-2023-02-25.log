@@ -1,0 +1,378 @@
+✅ [32minfo[39m: [2023-02-25 11:46] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 11:47] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 11:47] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 11:47] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 11:48] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 11:49] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 11:49] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 11:49] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 11:49] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 11:50] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 11:50] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 11:50] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 11:50] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 11:50] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 11:51] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 11:51] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 11:51] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 11:51] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 11:55] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 11:55] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 11:56] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 11:56] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 11:56] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 11:56] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 11:56] Server is running on port 3000
+❌ [31merror[39m: [2023-02-25 12:21] Connection failed Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+❌ [31merror[39m: [2023-02-25 12:21] Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+❌ [31merror[39m: [2023-02-25 12:24] Connection failed Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+❌ [31merror[39m: [2023-02-25 12:24] Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+❌ [31merror[39m: [2023-02-25 12:27] Connection failed Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+❌ [31merror[39m: [2023-02-25 12:27] Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+❌ [31merror[39m: [2023-02-25 12:29] Connection failed Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+❌ [31merror[39m: [2023-02-25 12:29] Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+❌ [31merror[39m: [2023-02-25 12:31] Connection failed connection <monitor> to 34.194.50.41:27017 closed
+❌ [31merror[39m: [2023-02-25 12:31] connection <monitor> to 34.194.50.41:27017 closed
+❌ [31merror[39m: [2023-02-25 12:32] Connection failed connection <monitor> to 34.194.50.41:27017 closed
+✅ [32minfo[39m: [2023-02-25 12:32] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 12:47] Succes connect
+✅ [32minfo[39m: [2023-02-25 12:47] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 12:54] Succes connect
+✅ [32minfo[39m: [2023-02-25 12:54] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 15:25] Succes connect
+✅ [32minfo[39m: [2023-02-25 15:25] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 15:27] Succes connect
+✅ [32minfo[39m: [2023-02-25 15:27] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 15:27] Succes connect
+✅ [32minfo[39m: [2023-02-25 15:27] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 15:31] Succes connect
+✅ [32minfo[39m: [2023-02-25 15:31] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 15:37] Succes connect
+✅ [32minfo[39m: [2023-02-25 15:37] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 15:37] Succes connect
+✅ [32minfo[39m: [2023-02-25 15:37] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 15:37] Succes connect
+✅ [32minfo[39m: [2023-02-25 15:37] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 15:38] Succes connect
+✅ [32minfo[39m: [2023-02-25 15:38] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 15:38] Succes connect
+✅ [32minfo[39m: [2023-02-25 15:38] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 15:38] Succes connect
+✅ [32minfo[39m: [2023-02-25 15:38] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 15:38] Succes connect
+✅ [32minfo[39m: [2023-02-25 15:38] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 15:39] Succes connect
+✅ [32minfo[39m: [2023-02-25 15:39] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 15:39] Succes connect
+✅ [32minfo[39m: [2023-02-25 15:39] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 15:39] Succes connect
+✅ [32minfo[39m: [2023-02-25 15:39] Succes connect
+✅ [32minfo[39m: [2023-02-25 15:39] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 15:39] Succes connect
+✅ [32minfo[39m: [2023-02-25 15:39] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 15:40] Succes connect
+✅ [32minfo[39m: [2023-02-25 15:40] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 15:40] Succes connect
+✅ [32minfo[39m: [2023-02-25 15:40] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 15:41] Succes connect
+✅ [32minfo[39m: [2023-02-25 15:41] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 15:41] Succes connect
+✅ [32minfo[39m: [2023-02-25 15:41] Server is running on port 3000
+❌ [31merror[39m: [2023-02-25 15:43] Connection failed querySrv ETIMEOUT _mongodb._tcp.test.gvtnuj6.mongodb.net
+✅ [32minfo[39m: [2023-02-25 15:43] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 15:57] Succes connect
+✅ [32minfo[39m: [2023-02-25 15:57] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 15:57] Succes connect
+✅ [32minfo[39m: [2023-02-25 15:57] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 15:57] Succes connect
+✅ [32minfo[39m: [2023-02-25 15:57] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 15:59] Succes connect
+✅ [32minfo[39m: [2023-02-25 15:59] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 16:00] Succes connect
+✅ [32minfo[39m: [2023-02-25 16:00] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 16:03] Succes connect
+✅ [32minfo[39m: [2023-02-25 16:03] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 16:03] Succes connect
+✅ [32minfo[39m: [2023-02-25 16:03] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 16:04] Succes connect
+✅ [32minfo[39m: [2023-02-25 16:04] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 16:04] Succes connect
+✅ [32minfo[39m: [2023-02-25 16:04] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 16:05] Succes connect
+✅ [32minfo[39m: [2023-02-25 16:05] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 16:06] Succes connect
+✅ [32minfo[39m: [2023-02-25 16:06] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 16:10] Succes connect
+✅ [32minfo[39m: [2023-02-25 16:10] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 16:16] Succes connect
+✅ [32minfo[39m: [2023-02-25 16:16] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 16:33] Succes connect
+✅ [32minfo[39m: [2023-02-25 16:33] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 17:33] Succes connect
+✅ [32minfo[39m: [2023-02-25 17:33] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 17:35] Succes connect
+✅ [32minfo[39m: [2023-02-25 17:35] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 17:47] Succes connect
+✅ [32minfo[39m: [2023-02-25 17:47] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 17:48] Succes connect
+✅ [32minfo[39m: [2023-02-25 17:48] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 17:48] Succes connect
+✅ [32minfo[39m: [2023-02-25 17:48] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 17:54] Succes connect
+✅ [32minfo[39m: [2023-02-25 17:54] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 17:58] Succes connect
+✅ [32minfo[39m: [2023-02-25 17:58] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 17:59] Succes connect
+✅ [32minfo[39m: [2023-02-25 17:59] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 18:01] Succes connect
+✅ [32minfo[39m: [2023-02-25 18:01] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 18:01] Succes connect
+✅ [32minfo[39m: [2023-02-25 18:01] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 18:02] Succes connect
+✅ [32minfo[39m: [2023-02-25 18:02] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 18:02] Succes connect
+✅ [32minfo[39m: [2023-02-25 18:02] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 18:02] Succes connect
+✅ [32minfo[39m: [2023-02-25 18:02] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 18:02] Succes connect
+✅ [32minfo[39m: [2023-02-25 18:02] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 18:02] Succes connect
+✅ [32minfo[39m: [2023-02-25 18:02] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 18:03] Succes connect
+✅ [32minfo[39m: [2023-02-25 18:03] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 18:03] Succes connect
+✅ [32minfo[39m: [2023-02-25 18:03] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 18:06] Succes connect
+✅ [32minfo[39m: [2023-02-25 18:06] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 18:07] Succes connect
+✅ [32minfo[39m: [2023-02-25 18:07] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 18:14] Succes connect
+✅ [32minfo[39m: [2023-02-25 18:14] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 18:15] Succes connect
+✅ [32minfo[39m: [2023-02-25 18:15] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 18:15] Succes connect
+✅ [32minfo[39m: [2023-02-25 18:15] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 18:15] Succes connect
+✅ [32minfo[39m: [2023-02-25 18:15] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 18:15] Succes connect
+✅ [32minfo[39m: [2023-02-25 18:15] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 18:15] Succes connect
+✅ [32minfo[39m: [2023-02-25 18:15] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 18:15] Succes connect
+✅ [32minfo[39m: [2023-02-25 18:15] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 18:18] Succes connect
+✅ [32minfo[39m: [2023-02-25 18:18] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 18:18] Succes connect
+✅ [32minfo[39m: [2023-02-25 18:18] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 18:23] Succes connect
+✅ [32minfo[39m: [2023-02-25 18:23] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 18:23] Succes connect
+✅ [32minfo[39m: [2023-02-25 18:23] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 18:24] Succes connect
+✅ [32minfo[39m: [2023-02-25 18:24] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 18:25] Succes connect
+✅ [32minfo[39m: [2023-02-25 18:25] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 18:25] Succes connect
+✅ [32minfo[39m: [2023-02-25 18:25] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 18:26] Succes connect
+✅ [32minfo[39m: [2023-02-25 18:26] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 18:26] Succes connect
+✅ [32minfo[39m: [2023-02-25 18:26] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 18:26] Succes connect
+✅ [32minfo[39m: [2023-02-25 18:26] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 18:29] Succes connect
+✅ [32minfo[39m: [2023-02-25 18:29] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 18:30] Succes connect
+✅ [32minfo[39m: [2023-02-25 18:30] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 18:30] Succes connect
+✅ [32minfo[39m: [2023-02-25 18:30] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 18:30] Succes connect
+✅ [32minfo[39m: [2023-02-25 18:30] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 18:30] Succes connect
+✅ [32minfo[39m: [2023-02-25 18:30] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 18:30] Succes connect
+✅ [32minfo[39m: [2023-02-25 18:30] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 18:30] Succes connect
+✅ [32minfo[39m: [2023-02-25 18:30] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 18:33] Succes connect
+✅ [32minfo[39m: [2023-02-25 18:33] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 18:34] Succes connect
+✅ [32minfo[39m: [2023-02-25 18:34] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 18:34] Succes connect
+✅ [32minfo[39m: [2023-02-25 18:34] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 18:35] Succes connect
+✅ [32minfo[39m: [2023-02-25 18:35] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 18:37] Succes connect
+✅ [32minfo[39m: [2023-02-25 18:37] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 18:38] Succes connect
+✅ [32minfo[39m: [2023-02-25 18:38] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 18:38] Succes connect
+✅ [32minfo[39m: [2023-02-25 18:38] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 18:39] Succes connect
+✅ [32minfo[39m: [2023-02-25 18:39] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 18:40] Succes connect
+✅ [32minfo[39m: [2023-02-25 18:40] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 18:43] Succes connect
+✅ [32minfo[39m: [2023-02-25 18:43] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 18:44] Succes connect
+✅ [32minfo[39m: [2023-02-25 18:44] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 18:44] Succes connect
+✅ [32minfo[39m: [2023-02-25 18:44] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 18:45] Succes connect
+✅ [32minfo[39m: [2023-02-25 18:45] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 18:45] Succes connect
+✅ [32minfo[39m: [2023-02-25 18:45] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 18:45] Succes connect
+✅ [32minfo[39m: [2023-02-25 18:45] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 18:47] Succes connect
+✅ [32minfo[39m: [2023-02-25 18:47] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 18:47] Succes connect
+✅ [32minfo[39m: [2023-02-25 18:47] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 18:48] Succes connect
+✅ [32minfo[39m: [2023-02-25 18:48] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 18:49] Succes connect
+✅ [32minfo[39m: [2023-02-25 18:49] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 18:49] Succes connect
+✅ [32minfo[39m: [2023-02-25 18:49] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 18:51] Succes connect
+✅ [32minfo[39m: [2023-02-25 18:51] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 18:54] Succes connect
+✅ [32minfo[39m: [2023-02-25 18:54] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 18:54] Succes connect
+✅ [32minfo[39m: [2023-02-25 18:54] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 18:54] Succes connect
+✅ [32minfo[39m: [2023-02-25 18:54] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 18:55] Succes connect
+✅ [32minfo[39m: [2023-02-25 18:55] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 18:59] Succes connect
+✅ [32minfo[39m: [2023-02-25 18:59] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 19:05] Succes connect
+✅ [32minfo[39m: [2023-02-25 19:05] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 19:07] Succes connect
+✅ [32minfo[39m: [2023-02-25 19:07] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 19:08] Succes connect
+✅ [32minfo[39m: [2023-02-25 19:08] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 19:09] Succes connect
+✅ [32minfo[39m: [2023-02-25 19:09] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 19:09] Succes connect
+✅ [32minfo[39m: [2023-02-25 19:09] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 19:11] Succes connect
+✅ [32minfo[39m: [2023-02-25 19:11] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 19:11] Succes connect
+✅ [32minfo[39m: [2023-02-25 19:11] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 19:11] Succes connect
+✅ [32minfo[39m: [2023-02-25 19:11] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 19:12] Succes connect
+✅ [32minfo[39m: [2023-02-25 19:12] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 19:13] Succes connect
+✅ [32minfo[39m: [2023-02-25 19:13] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 19:13] Succes connect
+✅ [32minfo[39m: [2023-02-25 19:13] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 19:15] Succes connect
+✅ [32minfo[39m: [2023-02-25 19:15] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 19:27] Succes connect
+✅ [32minfo[39m: [2023-02-25 19:27] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 19:29] Succes connect
+✅ [32minfo[39m: [2023-02-25 19:29] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 19:32] Succes connect
+✅ [32minfo[39m: [2023-02-25 19:32] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 19:32] Succes connect
+✅ [32minfo[39m: [2023-02-25 19:32] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 19:32] Succes connect
+✅ [32minfo[39m: [2023-02-25 19:32] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 19:33] Succes connect
+✅ [32minfo[39m: [2023-02-25 19:33] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 19:33] Succes connect
+✅ [32minfo[39m: [2023-02-25 19:33] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 19:33] Succes connect
+✅ [32minfo[39m: [2023-02-25 19:33] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 19:33] Succes connect
+✅ [32minfo[39m: [2023-02-25 19:33] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 19:34] Succes connect
+✅ [32minfo[39m: [2023-02-25 19:34] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 19:34] Succes connect
+✅ [32minfo[39m: [2023-02-25 19:34] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 19:35] Succes connect
+✅ [32minfo[39m: [2023-02-25 19:35] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 19:35] Succes connect
+✅ [32minfo[39m: [2023-02-25 19:35] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 19:36] Succes connect
+✅ [32minfo[39m: [2023-02-25 19:36] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 19:36] Succes connect
+✅ [32minfo[39m: [2023-02-25 19:36] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 19:36] Succes connect
+✅ [32minfo[39m: [2023-02-25 19:36] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 19:37] Succes connect
+✅ [32minfo[39m: [2023-02-25 19:37] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 19:37] Succes connect
+✅ [32minfo[39m: [2023-02-25 19:37] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 19:37] Succes connect
+✅ [32minfo[39m: [2023-02-25 19:37] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 19:37] Succes connect
+✅ [32minfo[39m: [2023-02-25 19:37] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 19:37] Succes connect
+✅ [32minfo[39m: [2023-02-25 19:37] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 19:38] Succes connect
+✅ [32minfo[39m: [2023-02-25 19:38] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 19:38] Succes connect
+✅ [32minfo[39m: [2023-02-25 19:38] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 19:38] Succes connect
+✅ [32minfo[39m: [2023-02-25 19:38] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 19:39] Succes connect
+✅ [32minfo[39m: [2023-02-25 19:39] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 19:39] Succes connect
+✅ [32minfo[39m: [2023-02-25 19:39] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 19:40] Succes connect
+✅ [32minfo[39m: [2023-02-25 19:40] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 19:41] Succes connect
+✅ [32minfo[39m: [2023-02-25 19:41] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 19:41] Succes connect
+✅ [32minfo[39m: [2023-02-25 19:41] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 19:41] Succes connect
+✅ [32minfo[39m: [2023-02-25 19:41] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 19:41] Succes connect
+✅ [32minfo[39m: [2023-02-25 19:41] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 19:44] Succes connect
+✅ [32minfo[39m: [2023-02-25 19:44] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 19:45] Succes connect
+✅ [32minfo[39m: [2023-02-25 19:45] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 19:47] Succes connect
+✅ [32minfo[39m: [2023-02-25 19:47] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 19:47] Succes connect
+✅ [32minfo[39m: [2023-02-25 19:47] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 19:48] Succes connect
+✅ [32minfo[39m: [2023-02-25 19:48] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 19:48] Succes connect
+✅ [32minfo[39m: [2023-02-25 19:48] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 19:51] Succes connect
+✅ [32minfo[39m: [2023-02-25 19:51] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 19:51] Succes connect
+✅ [32minfo[39m: [2023-02-25 19:51] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 19:52] Succes connect
+✅ [32minfo[39m: [2023-02-25 19:52] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 19:53] Succes connect
+✅ [32minfo[39m: [2023-02-25 19:53] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 19:53] Succes connect
+✅ [32minfo[39m: [2023-02-25 19:53] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 19:53] Succes connect
+✅ [32minfo[39m: [2023-02-25 19:53] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 19:53] Succes connect
+✅ [32minfo[39m: [2023-02-25 19:53] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 19:54] Succes connect
+✅ [32minfo[39m: [2023-02-25 19:54] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 19:54] Succes connect
+✅ [32minfo[39m: [2023-02-25 19:54] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 19:54] Succes connect
+✅ [32minfo[39m: [2023-02-25 19:54] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 19:55] Succes connect
+✅ [32minfo[39m: [2023-02-25 19:55] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 19:56] Succes connect
+✅ [32minfo[39m: [2023-02-25 19:56] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 19:56] Succes connect
+✅ [32minfo[39m: [2023-02-25 19:56] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 19:59] Succes connect
+✅ [32minfo[39m: [2023-02-25 19:59] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 19:59] Succes connect
+✅ [32minfo[39m: [2023-02-25 19:59] Server is running on port 3000
+✅ [32minfo[39m: [2023-02-25 19:59] Succes connect
+✅ [32minfo[39m: [2023-02-25 19:59] Server is running on port 3000

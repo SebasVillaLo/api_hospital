@@ -1,0 +1,20 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 5
+    },
+    "auditLog": "C:\\Users\\Sebas PC\\Documents\\NodeJS\\logs\\.364906b0af811ae554def2abdfaa424477e1ba6a-audit.json",
+    "files": [
+        {
+            "date": 1677343582000,
+            "name": "C:\\Users\\Sebas PC\\Documents\\NodeJS\\logs\\log-WepApi-2023-02-25.log",
+            "hash": "6e55dcffc64f2e8c694e56392d113cab6ceac5ab572f355e50bd1d7fb676f994"
+        },
+        {
+            "date": 1677438432731,
+            "name": "C:\\Users\\Sebas PC\\Documents\\NodeJS\\logs\\log-WepApi-2023-02-26.log",
+            "hash": "14c6e05345112c2785ed27d9283e317cd26fb24f43809cbe841e1d5ff848deae"
+        }
+    ],
+    "hashType": "sha256"
+}
