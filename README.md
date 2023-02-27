@@ -13,13 +13,15 @@ Esta API ofrece la posibilidad de realizar operaciones como:
 
 A continuación se presentan los detalles de cada operación y los parámetros requeridos para su ejecución.
 
-link de la api
+Link de la api
 
 `https://apihospital.azurewebsites.net/`
 
-Para testear la api usando Postman
+Testear la api usando Postman.
 
-[Postman](peticiones apiHospital.postman_collection.json)
+Para descargar solo presionas `Ctrl + s` dentro de la pagina y seleccionas la ruta de descarga.
+
+[Postman](https://raw.githubusercontent.com/SebasVillaLo/api_hospital/main/peticiones_apiHospital.postman_collection.json)
 
 ## Registro
 
